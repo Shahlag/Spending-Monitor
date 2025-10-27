@@ -12,7 +12,7 @@
 	<artifactId>Expense-Tracker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Expense-Tracker</name>
-	<description>Spring Boot project - Expense Tracker </description>
+	<description>Spring Boot project - Spending Monitor </description>
 	<url/>
 	<licenses>
 		<license/>
