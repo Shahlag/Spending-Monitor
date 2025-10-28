@@ -49,7 +49,7 @@ function addTransactionDOM(transaction) {
 }
 
 function removeTransaction(id) {
-  fetch(`http://localhost:8080/ExpTrack/transactions/${username}/${id}`, {
+  fetch(`http://localhost:8080/SpendMon/transactions/${username}/${id}`, {
     method: "DELETE",
   })
     .then(() => {
@@ -80,7 +80,7 @@ addTransaction.addEventListener("click", () => {
     date: new Date().toISOString().split("T")[0],
   };
 
-  fetch(`http://localhost:8080/ExpTrack/transactions/${username}`, {
+  fetch(`http://localhost:8080/SpendMon/transactions/${username}`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -98,7 +98,7 @@ addTransaction.addEventListener("click", () => {
 });
 
 function init() {
-  fetch(`http://localhost:8080/ExpTrack/transactions/${username}`)
+  fetch(`http://localhost:8080/SpendMon/transactions/${username}`)
     .then((res) => res.json())
     .then((data) => {
       transactions = data;
