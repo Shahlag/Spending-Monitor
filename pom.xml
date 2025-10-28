@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Expense-Tracker</artifactId>
+	<artifactId>Spending-Monitor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Expense-Tracker</name>
+	<name>Spending-Monitor</name>
 	<description>Spring Boot project - Spending Monitor </description>
 	<url/>
 	<licenses>

@@ -1,10 +1,10 @@
-package com.example.Expense.Tracker;
+package com.example.Spending.Monitor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExpenseTrackerApplicationTests {
+class SpendingMonitorApplicationTests {
 
 	@Test
 	void contextLoads() {
